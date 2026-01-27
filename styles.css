@@ -19,7 +19,6 @@ a:hover {
   text-decoration: underline;
 }
 
-/* ===== Header ===== */
 header {
   text-align: center;
   margin-bottom: 4rem;
@@ -36,7 +35,6 @@ header p {
   margin: 0 auto;
 }
 
-/* ===== Projects Section ===== */
 .projects {
   margin: 3rem auto;
 }
@@ -46,7 +44,6 @@ header p {
   margin-bottom: 1.5rem;
 }
 
-/* ===== Card Grid ===== */
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -82,7 +79,6 @@ header p {
   margin-bottom: 1rem;
 }
 
-/* ===== Tags ===== */
 .tags {
   display: flex;
   flex-wrap: wrap;
@@ -99,14 +95,12 @@ header p {
   font-weight: 500;
 }
 
-/* ===== Card Links ===== */
 .card a {
   font-weight: 600;
   margin-top: auto;
   align-self: flex-start;
 }
 
-/* ===== Footer ===== */
 footer {
   margin-top: 5rem;
   text-align: center;

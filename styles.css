@@ -58,6 +58,7 @@ header p {
   justify-content: space-between;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   margin-bottom: 1.5rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
 }
 
 .card:hover {
@@ -103,4 +104,23 @@ footer {
   text-align: center;
   color: #6b7280;
   font-size: 0.9rem;
+}
+
+.contact {
+  font-size: 1rem;
+  color: #555;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+section:not(.projects) {
+  background: #f8fafc;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+section h2 {
+  margin-bottom: 1rem;
 }
